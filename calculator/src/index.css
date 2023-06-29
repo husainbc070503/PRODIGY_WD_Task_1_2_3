@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2D4356;
+}
+
+.Typography.head {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 4% 0;
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(200deg, #e9e509, #f86d03b8);
+  background-size: 50px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: move 10s linear alternate infinite;
+}
+
+@keyframes move {
+  from {
+    background-position: 0%;
+  }
+
+  to {
+    background-position: 100%;
+  }
+}
+
+.calc-card {
+  width: 550px;
+  max-width: 90%;
+  border-radius: 10px;
+  background: #fff;
+  margin: 32px auto;
+}

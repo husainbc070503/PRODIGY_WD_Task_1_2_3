@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #001C30;
+  padding-bottom: 30px;
+}
+
+.TableCell.task {
+  font-size: 20px;
+  color: #FCE9F1;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.TableCell.strike {
+  text-decoration: line-through;
+  color: #3c5161;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

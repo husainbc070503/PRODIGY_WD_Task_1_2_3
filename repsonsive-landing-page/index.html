@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 - Responsive Landing Page</title>
+    <link rel="stylesheet" href="assests/style.css">
+    <link rel="icon" href="assests/images/stadium.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- MainWrapper -->
+    <div class="container-wrapper">
+        <header class="header sections">
+            <!-- Navbar -->
+            <nav class="navbar" id="navbar">
+                <div class="logo">
+                    <h2>
+                        <span class="first">Cricket</span>
+                        <span class="second">Go.</span>
+                    </h2>
+                </div>
+
+                <div class="icon">
+                    <i class="fa-solid fa-bars" id="menu"></i>
+                </div>
+
+                <ul class="lists" id="lists">
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="#matches">Matches</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Content -->
+            <div class="container">
+                <div class="introduction" data-aos="fade-up" data-aos-duration="2000">
+                    <h2>Get all the <span>Cricket</span> matches at one <span>Go.</span></h2>
+                    <a href="#">Know More</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Matches -->
+        <section id="matches" class="sections">
+            <div class="container" data-aos="fade-up" data-aos-duration="2000">
+                <div class="heading">
+                    <h2>Ongoing Matches</h2>
+                </div>
+                <div class="match-content">
+                    <h2 class="h2">The Ashes</h2>
+                    <div class="grid-container">
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="card-header">
+                                <img src="assests/images/ashes.jpeg" alt="ashes">
+                            </div>
+                            <div class="card-body">
+                                <p>The Ashes is a Test cricket series played between England and Australia, with the
+                                    2023 series currently underway. The term originated in a satirical obituary
+                                    published in a British newspaper, The Sporting Times, immediately after Australia's
+                                    1882 victory at The Oval, its first Test win on English soil. </p>
+                                <a target="_blank"
+                                    href="https://www.cricbuzz.com/live-cricket-scores/53352/aus-vs-eng-2nd-test-the-ashes-2023">Watch
+                                    Score</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heading" data-aos="fade-up" data-aos-duration="2000">
+                        <h2>Upcoming Matches</h2>
+                    </div>
+                    <h2 class="h2" data-aos="fade-up" data-aos-duration="2000">ODI World Cup 2023 Fixtures</h2>
+                    <div class="team" data-aos="fade-up" data-aos-duration="2000">
+                        <h3 class="team-name">India </h3>
+                        <div class="grid-container">
+                            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="card-header">
+                                    <img src="assests/images/chennai.jpeg" alt="ashes">
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="date">IND VS AUS, Sun, 8th Oct</h1>
+                                    <div class="time-venue">
+                                        <span class="time">Time: 2:00PM IST</span>
+                                        <span class="venue">Venue: Chennai</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="card-header">
+                                    <img src="assests/images/delhi.jpeg" alt="ashes">
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="date">IND VS AFG, Wed, 11th Oct</h1>
+                                    <div class="time-venue">
+                                        <span class="time">Time: 2:00PM IST</span>
+                                        <span class="venue">Venue: Delhi</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="card-header">
+                                    <img src="assests/images/motera.jpeg" alt="ashes">
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="date">IND VS PAK, Sun, 15th Oct</h1>
+                                    <div class="time-venue">
+                                        <span class="time">Time: 2:00PM IST</span>
+                                        <span class="venue">Venue: Ahemdabad</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="card-header">
+                                    <img src="assests/images/mca.jpeg" alt="ashes">
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="date">IND VS BAN, Thur, 19th Oct</h1>
+                                    <div class="time-venue">
+                                        <span class="time">Time: 2:00PM IST</span>
+                                        <span class="venue">Venue: Pune</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="card-header">
+                                    <img src="assests/images/dharmasala.jpeg" alt="ashes">
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="date">IND VS NZ, Sun, 22th Oct</h1>
+                                    <div class="time-venue">
+                                        <span class="time">Time: 2:00PM IST</span>
+                                        <span class="venue">Venue: Dharamsala</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="card-header">
+                                    <img src="assests/images/lucknow.jpeg" alt="ashes">
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="date">IND VS ENG, Sun, 29th Oct</h1>
+                                    <div class="time-venue">
+                                        <span class="time">Time: 2:00PM IST</span>
+                                        <span class="venue">Venue: Lucknow</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="card-header">
+                                    <img src="assests/images/wankhede.jpeg" alt="ashes">
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="date">IND VS Q2, Thur, 2nd Nov</h1>
+                                    <div class="time-venue">
+                                        <span class="time">Time: 2:00PM IST</span>
+                                        <span class="venue">Venue: Mumbai</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="card-header">
+                                    <img src="assests/images/delhi.jpeg" alt="ashes">
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="date">IND VS SA, Sun, 5th Nov</h1>
+                                    <div class="time-venue">
+                                        <span class="time">Time: 2:00PM IST</span>
+                                        <span class="venue">Venue: Delhi</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="card-header">
+                                    <img src="assests/images/bangalore.jpeg" alt="ashes">
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="date">IND VS Q1, Sat, 11th Nov</h1>
+                                    <div class="time-venue">
+                                        <span class="time">Time: 2:00PM IST</span>
+                                        <span class="venue">Venue: Bengaluru</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="others" target="_blank"
+                        href="https://www.howzat.com/blog/cricket/odi-world-cup-2023-match-schedule-dates-venues">Other
+                        Team Fixtures</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="sections">
+            <div class="container" data-aos="fade-up" data-aos-duration="2000">
+                <div class="heading">
+                    <h2>About</h2>
+                </div>
+                <div class="about-card">
+                    <div class="image left">
+                        <img src="/assests/images/batsman.png" alt="bowler">
+                    </div>
+                    <div class="about-content">
+                        <h2>Cricket Go</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid fugiat officiis maiores
+                            eveniet libero magnam, neque ipsum asperiores atque unde ex saepe exercitationem facilis
+                            nulla, deserunt omnis, aspernatur cupiditate odit sapiente quisquam quo! Eaque, illo
+                            aspernatur deleniti nesciunt possimus eum repellendus sequi, rem illum quis eos placeat
+                            repellat dolore nobis quas nulla. Eveniet, quam aliquid distinctio ullam earum neque beatae
+                            officia? Ea illo explicabo quae optio asperiores labore aspernatur officiis vel. Autem,
+                            recusandae repellat dolorum iste, officiis hic labore ipsam obcaecati inventore esse cumque
+                            ad mollitia alias rem vero necessitatibus, facilis animi nostrum! Repellat fuga temporibus
+                            placeat, error earum maxime.</p>
+                    </div>
+                    <div class="image right">
+                        <img src="/assests/images/batsman2.jpeg" alt="bowler">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="sections">
+            <div class="container" data-aos="fade-up" data-aos-duration="2000">
+                <div class="heading contact-heading">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="form">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="tel" id="phone" required>
+                            <label for="phone">Phone No.</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="msg" rows="4" required></textarea>
+                            <label for="msg">Message</label>
+                        </div>
+                        <button type="submit" class="btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="left">
+                    <div class="logo">
+                        <h2>
+                            <span class="first">Cricket</span>
+                            <span class="second">Go.</span>
+                        </h2>
+                    </div>
+                    <p>Copyright &copy; 2023 - Task 1 Responsive Landing Page</p>
+                </div>
+                <div class="right">
+                    <div class="subscribe">
+                        <p>Subscribe to know more details</p>
+                        <input type="email" id="email" placeholder="Email">
+                        <button>Subscribe</button>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll to top button -->
+        <div class="scroll-btn" id="scroll">
+            <div class="scroll"><i class="fa-sharp fa-solid fa-arrow-up"></i></div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6ccdd39db5.js" crossorigin="anonymous"></script>
+
+    <script src="assests/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
